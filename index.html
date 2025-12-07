@@ -25,7 +25,7 @@
       <li><a href="#custom-cards" class="nav-link px-2">PORFOLIO</a></li>
     </ul>
     <div class="col-md-3 text-end">
-      <button type="button" class="btn btn-primary">CONTACT US</button>
+      <a href="#contact" class="btn btn-primary">CONTACT US</a>
     </div>
   </header>
 
@@ -75,6 +75,7 @@
           </div>
         </div>
       </div>
+  
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
           style="background-image: url('event-photography.jpg')">
@@ -109,6 +110,50 @@
       </div>
     </div>
   </div>
+  <!-- CONTACT SECTION -->
+<section id="contact" class="content-section bg-dark text-light py-5">
+  <div class="container px-4 px-lg-5">
+
+    <h2 class="pb-2 border-bottom text-center mb-5">CONTACT SECTION</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+
+        <form>
+
+          <!-- NAME -->
+          <div class="mb-4">
+            <label for="name" class="form-label">Name *</label>
+            <input type="text" class="form-control contact-input" id="name" placeholder="Enter your name" required>
+          </div>
+
+          <!-- EMAIL -->
+          <div class="mb-4">
+            <label for="email" class="form-label">Email Address *</label>
+            <input type="email" class="form-control contact-input" id="email" placeholder="name@example.com" required>
+          </div>
+
+          <!-- MESSAGE -->
+          <div class="mb-4">
+            <label for="message" class="form-label">Message *</label>
+            <textarea class="form-control contact-input" id="message" rows="5" placeholder="Write your message…" required></textarea>
+          </div>
+
+          <!-- SEND BUTTON -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary contact-btn px-5 py-2">
+              SEND MESSAGE
+            </button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- END CONTACT SECTION -->
   <!--FOOTER-->
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <div class="col-md-4 d-flex align-items-center">
@@ -128,5 +173,6 @@
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
 </body>
+
 
 </html>

@@ -46,6 +46,22 @@ header .btn-primary:hover{
 header .link-secpndary{
     color: #ffffff !important;
 }
+/*BOOK ME BUTTON*/
+
+#about .btn-primary {
+    background-color: #ff0000;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid #000;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+#about .btn-primary:hover {
+    color: #fff;
+    background-color: #111111;
+    transform: translateY(-2px);
+}
+
 /*PORFOLIO SECTION*/
 #custom-cards{
     background-color: #f8f9fa;
